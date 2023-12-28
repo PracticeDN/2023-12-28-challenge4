@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>회원가입</h1>
+
+    <fieldset>
+      <legend>필수 입력 사항</legend>
+
+      <form>
+        <ol>
+          <li>
+            <label for="email">이메일</label>
+            <input type="email" id="email" name="email" />
+          </li>
+          <li>
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" />
+          </li>
+          <li>
+            <label for="password">비밀번호</label>
+            <input type="email" id="password" name="password" />
+          </li>
+          <li>
+            <label for="phoneNumber">전화번호</label>
+
+            <!-- 자바스크립트 사용이 불가하여 별 다른 처리 없이 type text로 하였습니다. -->
+            <input type="text" id="phoneNumber" name="phoneNumber" />
+          </li>
+        </ol>
+
+        <select>
+          <option value="seoul">서울</option>
+          <option value="busan">부산</option>
+          <option value="gwangju">광주</option>
+          <option value="daegu">대구</option>
+          <option value="jaejudo">제주도</option>
+          <option value="other">그 외 지역</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="male">남자</label>
+        <input type="radio" id="male" name="gender" />
+
+        <label for="female">여자</label>
+        <input type="radio" id="female" name="gender" />
+        <br />
+
+        <button type="submit">제출</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
